@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -13,6 +14,7 @@ function Header() {
         src="/logo.png"
         alt="Vita-AI Logo"
         style={{ height: 55, marginLeft: 80 }}
+        wh
       />
       <span
         style={{
@@ -37,7 +39,8 @@ function Header() {
           }}
         >
           Doctor?
-          <span
+          <Link
+            to="/login"
             style={{
               fontFamily: "'Poppins', sans-serif",
               fontWeight: "500",
@@ -48,7 +51,7 @@ function Header() {
             }}
           >
             Login
-          </span>
+          </Link>
         </span>
         <span color="blue" style={{ marginRight: 90 }}>
           👤

@@ -20,7 +20,7 @@ function MainContent() {
           fontFamily: "'Poppins', sans-serif",
           fontWeight: 700,
           fontSize: 32,
-          marginBottom: 30,
+
           marginLeft: 400,
           marginRight: 400,
           marginBottom: 80,
