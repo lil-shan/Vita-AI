@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+API Keys have not been included in the uploaded vita.py file due to data breach risk errors from open AI , when cloning the project ,create an api key and paste it in the given slot
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
