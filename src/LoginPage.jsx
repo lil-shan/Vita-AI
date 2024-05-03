@@ -83,7 +83,7 @@ function LoginPage() {
       <p style={{ marginTop: "15px" }}>
         Don't have an account?{" "}
         <a
-          href="/doctor-signup"
+          href="https://verfication.streamlit.app/"
           style={{ color: "#007bff", textDecoration: "none" }}
         >
           Sign up as a doctor

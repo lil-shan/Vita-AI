@@ -34,23 +34,25 @@ function MainContent() {
         style={{ display: "flex", justifyContent: "center", gap: 120 }}
       >
         {/* Styles for both buttons */}
-        <button
-          className="vita-ai"
-          style={{
-            backgroundColor: "#38B6FF",
-            color: "white",
-            fontFamily: "'Poppins', sans-serif",
-            fontWeight: "bold",
-            padding: "10px 45px",
-            borderRadius: 16,
-            border: "none",
-            fontSize: 24,
-            cursor: "pointer",
-            marginright: 100,
-          }}
-        >
-          Vita-AI
-        </button>
+        <a href="https://vita-ai.streamlit.app/">
+          <button
+            className="vita-ai"
+            style={{
+              backgroundColor: "#38B6FF",
+              color: "white",
+              fontFamily: "'Poppins', sans-serif",
+              fontWeight: "bold",
+              padding: "10px 45px",
+              borderRadius: 16,
+              border: "none",
+              fontSize: 24,
+              cursor: "pointer",
+              marginright: 100,
+            }}
+          >
+            Vita-AI
+          </button>
+        </a>
 
         <a
           href="https://button4scan.streamlit.app/"
